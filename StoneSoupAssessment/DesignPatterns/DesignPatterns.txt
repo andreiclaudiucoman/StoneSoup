@@ -1,0 +1,20 @@
+﻿1. 
+Repository, Singleton, Factory
+
+2. 
+Repository
+- acts as a middle layer between the data access logic 
+and the rest of the application
+- restricts you from working directly with the data and
+from creating new layers for database operations
+- the interface defines all the database operations that
+can be performed on the domain entities
+- all the repository classes will implement the interface
+
+3. 
+See RepositoryPatternDiagram.PNG
+or
+1) navigate to https://www.draw.io
+2) File -> Open From -> Device
+3) Select RepositoryPatternDiagram.drawio
+4) Open
